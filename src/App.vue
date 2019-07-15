@@ -5,9 +5,8 @@
 </template>
 <script>
 export default {
-  name: 'App'
-}
-
+  name: "App"
+};
 </script>
 <style>
 #app {
@@ -22,12 +21,10 @@ export default {
   margin: 0;
   overflow: hidden;
 }
-
 </style>
 <style lang="less">
-@import '~vux/src/styles/reset.less';
-@import '~vux/src/styles/1px.less';
-@import '~vux/src/styles/close.less';
-@import './assets/less/common.less';
-
+@import "~vux/src/styles/reset.less";
+@import "~vux/src/styles/1px.less";
+@import "~vux/src/styles/close.less";
+@import "./assets/less/common.less";
 </style>
